@@ -1,6 +1,4 @@
 streamlit
 numpy
-pandas 
-pickle5
-pandas
+pickle
 scikit-learn
