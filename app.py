@@ -10,7 +10,7 @@ import streamlit as st
 import numpy as np
 
 
-st.header('Book Recommender System Using Machine Learning')
+st.header('Book Recommendation for you !')
 model = pickle.load(open('artifacts/model.pkl','rb'))
 book_names = pickle.load(open('artifacts/book_names.pkl','rb'))
 final_rating = pickle.load(open('artifacts/final_rating.pkl','rb'))
